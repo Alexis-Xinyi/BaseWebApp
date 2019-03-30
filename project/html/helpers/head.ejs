@@ -16,6 +16,19 @@
 
 
 
+<script src="https://www.gstatic.com/firebasejs/5.9.2/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "``<%= process.env.API_KEY %>``",
+    authDomain: "database-webapp-learn.firebaseapp.com",
+    databaseURL: "https://database-webapp-learn.firebaseio.com",
+    projectId: "database-webapp-learn",
+    storageBucket: "database-webapp-learn.appspot.com",
+    messagingSenderId: "617158095583"
+  };
+  firebase.initializeApp(config);
+</script>
 <!-- Next import js files -->
 
 <!-- first we import jquery -->
